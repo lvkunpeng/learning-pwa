@@ -234,7 +234,7 @@
             xhr.send(body);
         });
     }
-
+        // 检测系统支持 
     if ('serviceWorker' in navigator && 'PushManager' in window) {
         var publicKey = 'BOEQSjdhorIf8M0XFNlwohK3sTzO9iJwvbYU-fuXRF0tvRpPPMGO6d_gJC_pUQwBT7wD8rKutpNTFHOHN3VqJ0A';
         // 注册service worker
